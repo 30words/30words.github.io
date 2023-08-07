@@ -11,9 +11,15 @@ img{
 }
 section {
   margin: 0 auto;
-  /* height: 5vh; */
 }
-
+section.padtop {
+  height: 0vh;
+}
+section.copy{
+  opacity: 0.1;
+  height: fit-content;
+  margin-top: -50px;
+}
 h1, h2, h3 {
   text-align: center;
   font-size: 84px;
@@ -92,10 +98,37 @@ h2 {
   margin-left: 20px;
     max-width: 85%;
   text-align: right;
-  font-size: 14px;
+  font-size: 16px;
+  font-style: italic;
 }
 
+.copy p{
+  max-width: 300px;
+  margin: 0 8%;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+}
+.copy p span:first-child{
+  font-weight: bold;
+}
+.copy p span:nth-child(2){
+  text-decoration: underline;
+}
+.next{
+  text-transform: uppercase;
+  margin-top: 50px;
+  text-align: center;
+}
+.next a{
+  text-decoration: none;
+  color: #ff00ff;
+}
 @media (min-width: 480px) {
+  section.padtop {
+   height: 3vh;
+  }
   .content .left p{
     left: 10%;
     font-size: 13px;
@@ -111,8 +144,14 @@ h2 {
     margin-left: 0px;
       max-width: 78%;
     text-align: right;
-      font-size: 18px;
-}  
+      font-size: 20px;
+  }
+  .copy p{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: justify;
+  }  
 }
 
 
@@ -135,6 +174,15 @@ h2 {
   }
   to {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes anim3 {
+  from {
+    opacity: 0.1;
+  }
+  to {
     opacity: 1;
   }
 }
