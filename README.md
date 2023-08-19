@@ -1,8 +1,14 @@
-## 30 Words is a new concept for artists and creatives.
-
+## UI
 ![preview](preview.png)
 
-#### Features:
-- Intersectional Observer for animation control.
+## Navigation Overlay
+![preview](preview2.jpg)
+
+## Intersectional Observer
+![preview](showcase.png)
+
+## Colour Palette
+![preview](palette.jpg)
+
 
 
