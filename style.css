@@ -321,6 +321,13 @@ footer{
   .nav-icons{
     padding: 10px 0;
   }
+  section h2, section h3, section p{
+    width: 50%;
+    margin: 0% auto;
+  }
+  section h2{
+    margin-top: 10%;
+  }
   .image-section{
     min-height: 600px;
   }
@@ -348,13 +355,6 @@ footer{
   #close-nav-btn{
     opacity: .1;
     margin-right: 15px;
-  }
-  section h2, section h3, section p{
-    width: 50%;
-    margin: 0% auto;
-  }
-  section h2{
-    margin-top: 10%;
   }
 }
 
