@@ -257,18 +257,18 @@ footer{
 }
 #close-modal{
   position: absolute;
-  top: -24px;
+  top: 5%;
   right: 1px;
-  margin-right: 0px;
   font-size: 1rem;
   line-height: 2rem;
-  padding: 0;
+  padding: 8px 0 0;
   margin: 0;
   font-weight: bold;
   cursor: pointer;
   user-select: none;
+  background: #000;
   color: white;
-  opacity: .3;
+  opacity: .5;
 }
 #modal img{
   max-width: 100%;
