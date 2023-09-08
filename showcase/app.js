@@ -1,3 +1,4 @@
+const backButton = document.getElementById('backButton');
 const images = document.querySelectorAll('.anim');
 const images2 = document.querySelectorAll('.anim2');
 const images3 = document.querySelectorAll('.anim3');
@@ -65,3 +66,7 @@ setInterval(() => {
   // });
 }, 180000); // milliseconds
   
+
+backButton.addEventListener('click', function() {
+  window.history.back();
+});

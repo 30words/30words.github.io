@@ -116,14 +116,15 @@ h2 {
 .copy p span:nth-child(2){
   text-decoration: underline;
 }
-.next{
+.back{
   text-transform: uppercase;
   margin-top: 50px;
   text-align: center;
 }
-.next a{
+.back a{
   text-decoration: none;
   color: #ff00ff;
+  cursor: pointer;
 }
 @media (min-width: 480px) {
   section.padtop {
